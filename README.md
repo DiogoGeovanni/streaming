@@ -1,20 +1,21 @@
 # streaming
 
-# INSTRUÇÕES PARA COMPILAR E EXECUTAR O PROGRAMA DE STREAMING DE VÍDEOS EM C
+## INSTRUÇÕES PARA COMPILAR E EXECUTAR O PROGRAMA DE STREAMING DE VÍDEOS EM C
 
-# 1. SALVAR O ARQUIVO DO PROGRAMA
-# Salve o código-fonte com o nome: streaming.c
+## 1. SALVAR O ARQUIVO DO PROGRAMA
+Salve o código-fonte com o nome: streaming.c
 
-# 2. COMPILAR O PROGRAMA
+## 2. COMPILAR O PROGRAMA
 gcc streaming.c -o streaming
 
-# 3. EXECUTAR O PROGRAMA
+## 3. EXECUTAR O PROGRAMA
 ./streaming
 
-# 4. USAR O MENU DO PROGRAMA
-# Você verá um menu com as seguintes opções:
+## 4. USAR O MENU DO PROGRAMA
+### Você verá um menu com as seguintes opções:
 
 ====== MENU STREAMING ======
+
 1 - Cadastrar Vídeo
 
 2 - Cadastrar Usuário
@@ -60,11 +61,11 @@ Digite o ID do vídeo que deseja remover.
 ## SAIR DO PROGRAMA
 Escolha a opção 0.
 
-# 6. OBSERVAÇÕES
+## 6. OBSERVAÇÕES
 - Os arquivos binários criados são:
     - videos.bin: armazena os vídeos
     - usuarios.bin: armazena os usuários
 - Ao remover um vídeo, um arquivo temporário será criado e o original será substituído.
 - Este programa pode ser compilado em qualquer ambiente com suporte a C (Linux, Windows com MinGW, WSL, etc.)
 
-# FIM DAS INSTRUÇÕES
+## FIM DAS INSTRUÇÕES
