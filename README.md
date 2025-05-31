@@ -16,10 +16,15 @@ gcc streaming.c -o streaming
 
 ====== MENU STREAMING ======
 1 - Cadastrar Vídeo
+
 2 - Cadastrar Usuário
+
 3 - Listar Usuários com Vídeos Favoritados
+
 4 - Atualizar Vídeo
+
 5 - Remover Vídeo
+
 0 - Sair
 
 # 5. EXEMPLO DE USO
